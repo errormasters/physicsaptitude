@@ -66,7 +66,7 @@ function displayQuestion() {
     nextButton.textContent = 'Next'; 
     nextButton.style.display = 'block';
     nextButton.addEventListener('click', () => {
-      window.location.href = 'https://www.flipkart.com/';
+      window.location.href = 'https://errormasters.github.io/chemistryaptitude/';
     });
   } else if (currentQuestion < questions.length) {
     questionElement.textContent = `Question ${currentQuestion + 1}: ${questions[currentQuestion].question}`;
